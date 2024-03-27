@@ -23,7 +23,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="I9y-Lh-4vr">
-                                <rect key="frame" x="16" y="106.33333333333334" width="361" height="267.66666666666663"/>
+                                <rect key="frame" x="16" y="106.33333333333331" width="361" height="326"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRe-5m-4tm">
                                         <rect key="frame" x="0.0" y="0.0" width="65.666666666666671" height="34.333333333333336"/>
@@ -65,10 +65,19 @@
                                             <action selector="addInboxTagClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uje-8C-924"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88e-bq-6BD">
+                                        <rect key="frame" x="0.0" y="291.66666666666669" width="159.66666666666666" height="34.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Remove inbox tag"/>
+                                        <connections>
+                                            <action selector="addInboxTagClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5J2-yK-rCL"/>
+                                            <action selector="removeInboxTagClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tfB-jd-14H"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="H9d-FR-YCk">
-                                <rect key="frame" x="0.0" y="389" width="393" height="429"/>
+                                <rect key="frame" x="0.0" y="440.33333333333326" width="393" height="377.66666666666674"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MessageCell" rowHeight="85" id="tWx-8s-Fz5">
@@ -88,12 +97,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I9y-Lh-4vr" secondAttribute="trailing" constant="16" id="APi-MH-jTB"/>
                             <constraint firstItem="gol-nv-elq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="INl-bd-xad"/>
                             <constraint firstItem="gol-nv-elq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Jhp-MQ-kAw"/>
+                            <constraint firstItem="H9d-FR-YCk" firstAttribute="top" secondItem="I9y-Lh-4vr" secondAttribute="bottom" constant="8" symbolic="YES" id="Pka-T8-qKl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="H9d-FR-YCk" secondAttribute="bottom" id="ZMX-Gm-3Bm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gol-nv-elq" secondAttribute="trailing" constant="16" id="ZpB-6J-Mbo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="H9d-FR-YCk" secondAttribute="trailing" id="bqO-uu-JX3"/>
                             <constraint firstItem="H9d-FR-YCk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hiU-sc-myg"/>
                             <constraint firstItem="I9y-Lh-4vr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="iTA-sd-no8"/>
-                            <constraint firstItem="H9d-FR-YCk" firstAttribute="top" secondItem="I9y-Lh-4vr" secondAttribute="bottom" constant="15" id="tU7-se-TKg"/>
                             <constraint firstItem="I9y-Lh-4vr" firstAttribute="top" secondItem="gol-nv-elq" secondAttribute="bottom" constant="15" id="u9D-oN-wk2"/>
                         </constraints>
                     </view>

@@ -37,6 +37,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         showMessage("Add inbox tag clicked!")
     }
     
+    @IBAction func removeInboxTagClicked(_ sender: Any) {
+        showMessage("Remove inbox tag clicked!")
+    }
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return messages.count
     }
