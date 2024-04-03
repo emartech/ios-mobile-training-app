@@ -7,14 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10DB4CB2F0CEA8EEA6FA645D /* Pods_MobileTrainingNotificationService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4B6B94041696B68A1F3E53 /* Pods_MobileTrainingNotificationService.framework */; };
+		C83071DE2BBD542900760601 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83071DD2BBD542900760601 /* NotificationService.swift */; };
+		C83071E22BBD542900760601 /* MobileTrainingNotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C83071DB2BBD542900760601 /* MobileTrainingNotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C87C891C2BB1A39B005382ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87C891B2BB1A39B005382ED /* AppDelegate.swift */; };
 		C87C89202BB1A39B005382ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87C891F2BB1A39B005382ED /* ViewController.swift */; };
 		C87C89232BB1A39B005382ED /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C87C89222BB1A39B005382ED /* Base */; };
 		C87C89252BB1A39D005382ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87C89242BB1A39D005382ED /* Assets.xcassets */; };
 		C87C89282BB1A39D005382ED /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C87C89272BB1A39D005382ED /* Base */; };
+		DB82EF92EA61B838A3D85AC2 /* Pods_ios_mobile_training_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7716428F81E1B5C13466E7E3 /* Pods_ios_mobile_training_app.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C83071E02BBD542900760601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87C89102BB1A39B005382ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C83071DA2BBD542900760601;
+			remoteInfo = MobileTrainingNotificationService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C83071E62BBD542900760601 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C83071E22BBD542900760601 /* MobileTrainingNotificationService.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0DE531A42F106171E53276D6 /* Pods-ios-mobile-training-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-mobile-training-app.debug.xcconfig"; path = "Target Support Files/Pods-ios-mobile-training-app/Pods-ios-mobile-training-app.debug.xcconfig"; sourceTree = "<group>"; };
+		4985DE48FA4EC1A7E1A92A31 /* Pods-MobileTrainingNotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileTrainingNotificationService.debug.xcconfig"; path = "Target Support Files/Pods-MobileTrainingNotificationService/Pods-MobileTrainingNotificationService.debug.xcconfig"; sourceTree = "<group>"; };
+		7716428F81E1B5C13466E7E3 /* Pods_ios_mobile_training_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_mobile_training_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4B6B94041696B68A1F3E53 /* Pods_MobileTrainingNotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileTrainingNotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA81A08EE7D01957CA4A91BF /* Pods-ios-mobile-training-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-mobile-training-app.release.xcconfig"; path = "Target Support Files/Pods-ios-mobile-training-app/Pods-ios-mobile-training-app.release.xcconfig"; sourceTree = "<group>"; };
+		C83071D62BBD52CC00760601 /* ios-mobile-training-app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ios-mobile-training-app.entitlements"; sourceTree = "<group>"; };
+		C83071DB2BBD542900760601 /* MobileTrainingNotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MobileTrainingNotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C83071DD2BBD542900760601 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		C83071DF2BBD542900760601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C87C89182BB1A39B005382ED /* ios-mobile-training-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-mobile-training-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C87C891B2BB1A39B005382ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C87C891F2BB1A39B005382ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,32 +59,66 @@
 		C87C89242BB1A39D005382ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C87C89272BB1A39D005382ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C87C89292BB1A39D005382ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFCD1618F529889E3E662BC /* Pods-MobileTrainingNotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileTrainingNotificationService.release.xcconfig"; path = "Target Support Files/Pods-MobileTrainingNotificationService/Pods-MobileTrainingNotificationService.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C83071D82BBD542900760601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10DB4CB2F0CEA8EEA6FA645D /* Pods_MobileTrainingNotificationService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C87C89152BB1A39B005382ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB82EF92EA61B838A3D85AC2 /* Pods_ios_mobile_training_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76EB675B135DCC2CD5191566 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B6B94041696B68A1F3E53 /* Pods_MobileTrainingNotificationService.framework */,
+				7716428F81E1B5C13466E7E3 /* Pods_ios_mobile_training_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C62A7EE40437212383A05011 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				4985DE48FA4EC1A7E1A92A31 /* Pods-MobileTrainingNotificationService.debug.xcconfig */,
+				CAFCD1618F529889E3E662BC /* Pods-MobileTrainingNotificationService.release.xcconfig */,
+				0DE531A42F106171E53276D6 /* Pods-ios-mobile-training-app.debug.xcconfig */,
+				BA81A08EE7D01957CA4A91BF /* Pods-ios-mobile-training-app.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C83071DC2BBD542900760601 /* MobileTrainingNotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				C83071DD2BBD542900760601 /* NotificationService.swift */,
+				C83071DF2BBD542900760601 /* Info.plist */,
+			);
+			path = MobileTrainingNotificationService;
 			sourceTree = "<group>";
 		};
 		C87C890F2BB1A39B005382ED = {
 			isa = PBXGroup;
 			children = (
 				C87C891A2BB1A39B005382ED /* ios-mobile-training-app */,
+				C83071DC2BBD542900760601 /* MobileTrainingNotificationService */,
 				C87C89192BB1A39B005382ED /* Products */,
 				C62A7EE40437212383A05011 /* Pods */,
+				76EB675B135DCC2CD5191566 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				C87C89182BB1A39B005382ED /* ios-mobile-training-app.app */,
+				C83071DB2BBD542900760601 /* MobileTrainingNotificationService.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +134,7 @@
 		C87C891A2BB1A39B005382ED /* ios-mobile-training-app */ = {
 			isa = PBXGroup;
 			children = (
+				C83071D62BBD52CC00760601 /* ios-mobile-training-app.entitlements */,
 				C87C891B2BB1A39B005382ED /* AppDelegate.swift */,
 				C87C891F2BB1A39B005382ED /* ViewController.swift */,
 				C87C89212BB1A39B005382ED /* Main.storyboard */,
@@ -75,17 +148,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C87C89172BB1A39B005382ED /* ios-mobile-training-app */ = {
+		C83071DA2BBD542900760601 /* MobileTrainingNotificationService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C87C892C2BB1A39D005382ED /* Build configuration list for PBXNativeTarget "ios-mobile-training-app" */;
+			buildConfigurationList = C83071E32BBD542900760601 /* Build configuration list for PBXNativeTarget "MobileTrainingNotificationService" */;
 			buildPhases = (
-				C87C89142BB1A39B005382ED /* Sources */,
-				C87C89152BB1A39B005382ED /* Frameworks */,
-				C87C89162BB1A39B005382ED /* Resources */,
+				DE89CDF624A6FC96F79BC235 /* [CP] Check Pods Manifest.lock */,
+				C83071D72BBD542900760601 /* Sources */,
+				C83071D82BBD542900760601 /* Frameworks */,
+				C83071D92BBD542900760601 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = MobileTrainingNotificationService;
+			productName = MobileTrainingNotificationService;
+			productReference = C83071DB2BBD542900760601 /* MobileTrainingNotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C87C89172BB1A39B005382ED /* ios-mobile-training-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87C892C2BB1A39D005382ED /* Build configuration list for PBXNativeTarget "ios-mobile-training-app" */;
+			buildPhases = (
+				0933DA8B677439C88CF7FC3E /* [CP] Check Pods Manifest.lock */,
+				C87C89142BB1A39B005382ED /* Sources */,
+				C87C89152BB1A39B005382ED /* Frameworks */,
+				C87C89162BB1A39B005382ED /* Resources */,
+				C83071E62BBD542900760601 /* Embed Foundation Extensions */,
+				D0DFC275782BADB3A0CE3FFB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C83071E12BBD542900760601 /* PBXTargetDependency */,
 			);
 			name = "ios-mobile-training-app";
 			productName = "ios-mobile-training-app";
@@ -102,6 +197,9 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					C83071DA2BBD542900760601 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					C87C89172BB1A39B005382ED = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -121,11 +219,19 @@
 			projectRoot = "";
 			targets = (
 				C87C89172BB1A39B005382ED /* ios-mobile-training-app */,
+				C83071DA2BBD542900760601 /* MobileTrainingNotificationService */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C83071D92BBD542900760601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C87C89162BB1A39B005382ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,7 +244,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0933DA8B677439C88CF7FC3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-mobile-training-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0DFC275782BADB3A0CE3FFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-mobile-training-app/Pods-ios-mobile-training-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-mobile-training-app/Pods-ios-mobile-training-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-mobile-training-app/Pods-ios-mobile-training-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE89CDF624A6FC96F79BC235 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileTrainingNotificationService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		C83071D72BBD542900760601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83071DE2BBD542900760601 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C87C89142BB1A39B005382ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,6 +327,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C83071E12BBD542900760601 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C83071DA2BBD542900760601 /* MobileTrainingNotificationService */;
+			targetProxy = C83071E02BBD542900760601 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C87C89212BB1A39B005382ED /* Main.storyboard */ = {
@@ -170,6 +356,60 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C83071E42BBD542900760601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4985DE48FA4EC1A7E1A92A31 /* Pods-MobileTrainingNotificationService.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4J5FXBB97U;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobileTrainingNotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MobileTrainingNotificationService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emarsys.ios-mobile-training-app.MobileTrainingNotificationService";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C83071E52BBD542900760601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAFCD1618F529889E3E662BC /* Pods-MobileTrainingNotificationService.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4J5FXBB97U;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobileTrainingNotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MobileTrainingNotificationService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emarsys.ios-mobile-training-app.MobileTrainingNotificationService";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		C87C892A2BB1A39D005382ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -291,9 +531,12 @@
 		};
 		C87C892D2BB1A39D005382ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DE531A42F106171E53276D6 /* Pods-ios-mobile-training-app.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ios-mobile-training-app/ios-mobile-training-app.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4J5FXBB97U;
@@ -319,9 +562,12 @@
 		};
 		C87C892E2BB1A39D005382ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA81A08EE7D01957CA4A91BF /* Pods-ios-mobile-training-app.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ios-mobile-training-app/ios-mobile-training-app.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4J5FXBB97U;
@@ -348,6 +594,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C83071E32BBD542900760601 /* Build configuration list for PBXNativeTarget "MobileTrainingNotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83071E42BBD542900760601 /* Debug */,
+				C83071E52BBD542900760601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C87C89132BB1A39B005382ED /* Build configuration list for PBXProject "ios-mobile-training-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
