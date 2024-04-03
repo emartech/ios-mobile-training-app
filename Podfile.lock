@@ -1,0 +1,20 @@
+PODS:
+  - EmarsysNotificationService (3.10.1)
+  - EmarsysSDK (3.10.1)
+
+DEPENDENCIES:
+  - EmarsysNotificationService (= 3.10.1)
+  - EmarsysSDK (= 3.10.1)
+
+SPEC REPOS:
+  trunk:
+    - EmarsysNotificationService
+    - EmarsysSDK
+
+SPEC CHECKSUMS:
+  EmarsysNotificationService: 58160dc4bb367dcc7f4cdfff3f1bb269cdf457ab
+  EmarsysSDK: 2dbdf19afcea4e3418cb74d6f9496ab248b68af1
+
+PODFILE CHECKSUM: 73d902ede4cfa2d6525471f968d9f0f9b744e518
+
+COCOAPODS: 1.16.2
